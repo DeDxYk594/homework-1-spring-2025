@@ -213,76 +213,157 @@
 
 - [ ] Если изменить карточку, то изменения повлияют на результаты поиска
 
-
-
-
 ### 6. Добавление участников на доску (по ссылке)
 
-- [ ] При клике по кнопке "Создать ссылку-приглашение" создается ссылка
+- [ ] При клике по кнопкe "Создать ссылку-приглашение" в модальном окне "Настройки доски" создается ссылка
 
-- [ ] При переходе по ссылке-приглашении происходит редирект на сайт и открывается модальное окно
+![image](https://github.com/user-attachments/assets/439ed9f6-2272-4065-b0db-8291c282661b)
+![image](https://github.com/user-attachments/assets/75cca771-abb3-4226-adf2-0ab9e46b46c5)
 
-- [ ] При нажатии на кнопку "Отмена" модальное окно закрываетя
+- [ ] При переходе по ссылке-приглашению происходит редирект на сайт и открывается модальное окно
 
-- [ ] При нажатии на кнопку "Присоединиться" модальное окно закрывается и открывается доска, на которую было отправлено приглашение
+![image](https://github.com/user-attachments/assets/ea03930f-a08e-446e-903b-b7888afb9ae0)   
+
+- [ ] В открывшемся модальном окне "Приглашение на доску" отображается название доски
+
+![image](https://github.com/user-attachments/assets/41ca037a-9f4d-43aa-a43e-52eba526b873)
+
+- [ ] В открывшемся модальном окне "Приглашение на доску" отображается задний фон доски
+
+![image](https://github.com/user-attachments/assets/7ad90804-be8a-41e1-8617-9fa1cd937a27)
+
+- [ ] При нажатии на кнопку "Отмена" модальное окно "Приглашение на доску" закрываетя
+
+![image](https://github.com/user-attachments/assets/b86d9dc7-bb52-4068-8f5a-88a7eaf7951f)
+
+- [ ] При нажатии на кнопку "Присоединиться" в модальное окно "Приглашение на доску" закрывается и открывается доска, на которую было отправлено приглашение
+
+![image](https://github.com/user-attachments/assets/9bb3a947-057c-4e42-bbd9-7f6afd7b7656)
 
 - [ ] Для пользователя данной доски с правами "Админ" и "Редактор-организатор" доступно создание ссылкии
 
+![image](https://github.com/user-attachments/assets/7bd656ed-a25a-4bc5-81b3-52f54f4e7ac7)
+![image](https://github.com/user-attachments/assets/9a120621-75a9-4c0b-bdbe-b72a53ee1272)
+
 - [ ] Для пользователя данной доски с правами "Зритель" и "Редактор" недоступно создание ссылки
+
+![image](https://github.com/user-attachments/assets/65edefbd-9791-4b82-828e-728a5c0739e7)
+![image](https://github.com/user-attachments/assets/9a491642-de43-4b56-aa80-e6000c0692ec)
 
 ### 7. Чеклист
 
-- [ ] При клике по кнопке "Добавить чеклист" в модальном окне "Подробности карточки" появляется поле для ввода названия строки, кнопка "Добавить кнопку чеклиста" и кнопка "Отмена"
+- [ ] При клике по кнопке "Добавить чеклист" в модальном окне "Подробности карточки" появляется поле для ввода названия строки, кнопка "Добавить строку чеклиста" и кнопка "Отмена"
+
+![image](https://github.com/user-attachments/assets/8cd093a9-79eb-4da2-bd73-517c0d7d49ee)
+![image](https://github.com/user-attachments/assets/853299ff-9bf6-43ea-b003-25a4c3f1e4ab)
 
 - [ ] При вводе меньше 3 символов для названия чеклиста нельзя создать чеклист
+
+![image](https://github.com/user-attachments/assets/bb43fb53-cfc2-4d0e-898b-22f7b62f45eb)
 
 - [ ] При вводе больше 30 символов нельзя добавить чеклист [найден баг](#701)</a>
 
 - [ ] При нажатии на кнопку "Отмена" при создании чеклиста, поле для ввода и кнопка "Отмена" пропадают
 
+![image](https://github.com/user-attachments/assets/24fd4122-3ba9-405e-9cdc-68bce8f50912)
+![image](https://github.com/user-attachments/assets/52b6adf8-98dd-4df7-b9fd-85a4b5fdd717)
+
 - [ ] При нажатии на кнопку "Добавить строку чеклиста" чеклист добавляется
 
-- [ ] При нажатии на чекбокс он закрашивается в синий
+![image](https://github.com/user-attachments/assets/6bf16b36-0255-4492-b4c5-98938c9c3a04)
+![image](https://github.com/user-attachments/assets/26853c42-9979-46eb-9839-cbbce78f4e4e)
+
+- [ ] При перезагрузке страницы чекбокс карточки не пропадает
+
+![image](https://github.com/user-attachments/assets/170f6747-9429-44f0-8096-baabeeb42219)
+![image](https://github.com/user-attachments/assets/55b6b0da-563d-4c99-b621-abffcb666d48)
+
+- [ ] При нажатии на чекбокс он закрашивается в синий и внутри него появляется белая галочка
+
+![image](https://github.com/user-attachments/assets/54402da5-c9d2-4e40-97ab-44499b36cbee)
 
 - [ ] При нажатии на кнопку "крестик" в чеклисте, чеклист удаляется
 
+![image](https://github.com/user-attachments/assets/9388e81e-6983-47d7-b18f-88099fbd8d80)
+![image](https://github.com/user-attachments/assets/a4237d7e-73d9-4b5a-995e-f8b4d4450cc8)
+
 - [ ] При добавлении большого количество чеклистов появляется скролл
+
+![image](https://github.com/user-attachments/assets/5e61e26b-ab53-4e01-8e87-aae658f1e4c5)
+![image](https://github.com/user-attachments/assets/76769d46-ff96-4bbc-a2c0-ba6f85742710)
 
 ### 8. Режим списка, переключалка
 
 - [ ] При выборе режима списка доска переключается в режим списка
 
+![image](https://github.com/user-attachments/assets/15bef2a9-b308-4dc5-b733-c8748905d249)
+![image](https://github.com/user-attachments/assets/afe79322-75b9-4d24-b755-358aee3f62db)
+
 - [ ] При нажатии на карточку открывается модальное окно карточки
+
+![image](https://github.com/user-attachments/assets/29a71909-b51d-4da0-9d14-7050f174c9f5)
 
 ### 9. Вложения
 
 - [ ] При нажатии на кнопку "Добавить вложение" открывается Проводник для выбора файла
 
-- [ ] Файлы форматов ... успешно добавляются
+![image](https://github.com/user-attachments/assets/d225ed65-431f-4693-88b7-e3ccac984867)
 
-- [ ] Файлы не соответсвующие форматам ... не добавляются
+- [ ] Файлы-вложения успешно добавляются
 
-- [ ] При нажатии на добавленный файл начинается загрузка этого файла
+![image](https://github.com/user-attachments/assets/026e75b5-7e91-4cfe-8b2a-d55aea57feda)
+
+- [ ] При нажатии на добавленный файл начинается открывается Проводник для выбора места сохранения
+
+![image](https://github.com/user-attachments/assets/ff8c7f36-1438-4462-8601-f5d1d4ab63f5)
+
+- [ ] При выборе места сохранения файла в Проводнике начинается загрузка файла
+
+![image](https://github.com/user-attachments/assets/d233d498-6b39-4cdd-ab32-cda2d7a97051)
 
 - [ ] При нажатии на кнопку "Мусорка" вложение успешно удаляется
+
+![image](https://github.com/user-attachments/assets/389fac38-1758-4dee-896a-3c01b728ff3d)
+![image](https://github.com/user-attachments/assets/77e109e4-b048-4587-8bc1-13dea5996fcf)
 
 ### 10. Доски (левая панель)
 
 - [ ] При нажатии на "бургер" левая панель доски открывается
 
+![image](https://github.com/user-attachments/assets/50afd848-11fa-4aaf-acef-d64c83fafe48)
+![image](https://github.com/user-attachments/assets/b7cc4a13-0c59-49ec-bbc7-ec62f8c54a62)
+
 - [ ] При клике на "крестик" в открывшейся левой панели, левая панель закрывается
+
+![image](https://github.com/user-attachments/assets/481d5dc3-07e9-48a8-b5cd-90c8ec067987)
+![image](https://github.com/user-attachments/assets/cc079afa-483b-41e1-b7a7-d6d3f2c1d172)
 
 - [ ] При выборе доски из списка досок в левой панели, выбранная доска открывается
 
+![image](https://github.com/user-attachments/assets/9a0f6903-ffd9-474e-a8a1-ca043a3138dc)
+
 - [ ] При нажатии на кнопку "Добавить доску" появляется поле для ввода названия доски, кнопка "Добавить доску" и кнопка "Отмена"
 
-- [ ] При вводе меньше 3 символов в поле для названия доски нельзя создать доску
+![image](https://github.com/user-attachments/assets/2a2facfa-d552-4a29-bb8f-5083eed67565)
+![image](https://github.com/user-attachments/assets/f7dc4fd6-c115-478e-a529-a59961df17bf)
 
-- [ ] При вводе больше 30 символов в поле для названия доски нельзя создать доску
+- [ ] При вводе меньше 3 символов в поле для названия доски кнопка "Добавить доску" должно появиться Toast-сообщение "Название доски должно быть не меньше 3 символов"
 
-- [ ] При вводе от 3 до 30 символов в поле для названия доски и нажатии на кнопку "Добавить доску", доска успешно создается
+![image](https://github.com/user-attachments/assets/240a8442-0270-480b-b892-9674e9b91241)
+ 
+- [ ] При вводе больше 30 символов в поле для названия доски кнопка "Добавить доску" должно появиться Toast-сообщение "Название доски должно быть не больше 30 символов"
+
+![image](https://github.com/user-attachments/assets/8d97413f-3e0b-4f89-93bb-82d6931fd1fe)
+
+- [ ] При вводе от 3 до 30 символов в поле для названия доски и нажатии на кнопку "Добавить доску" доска успешно создается (отображается в левой панели)
+
+![image](https://github.com/user-attachments/assets/a1a38bf5-64d9-46fa-b6fe-750537247a52)
+![image](https://github.com/user-attachments/assets/d59a7956-3320-4b5e-a699-5a50df9cfaa2)
 
 - [ ] При нажатии на кнопку отмена пропадает поле для ввода и сама кнопка "Отмена"
+
+![image](https://github.com/user-attachments/assets/77544233-b0e8-4710-bed5-e687436ef3d7)
+![image](https://github.com/user-attachments/assets/4c3cb519-7ebf-4f8c-a76b-150fc8f037d6)
 
 ### 11. Комментарии
 - [ ] При нажатии на кнопку добавить комментарий открывается полее ввода и кнопки добавления комментария и отмены.
@@ -563,9 +644,10 @@ Toast-сообщения
 
 ### 7. Чеклист
 
-<h4 id="701">Баг 701</h4>
+<h4 id="701">Некорректное поведение при создании строки чеклиста при превышении длины строки</h4>
 Чеклист создается с любым количеством символов, но отображаются только первые 40. Ожидается, что нельзя создать чеклист с название больше 30 символов.
 
+![image](https://github.com/user-attachments/assets/db248d74-89a0-4a1e-a466-65d2a92f3bd7)
 ![image](https://github.com/user-attachments/assets/1a1e465f-bdbe-4f56-908a-f442a3f0e741)
 
 ### 8. Режим списка, переключалка
